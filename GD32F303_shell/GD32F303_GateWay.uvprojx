@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD,__FPU_PRESENT</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Library\Firmware\GD32F30x_standard_peripheral\Include;.\Library\Firmware\CMSIS;.\Library\Firmware\CMSIS\GD\GD32F30x\Include;.\Hardware\Include;.\Hardware\APP\SI4463\inc;.\Hardware\APP\WIFI;.\Hardware;.\Hardware\shell</IncludePath>
+              <IncludePath>.\Library\Firmware\GD32F30x_standard_peripheral\Include;.\Library\Firmware\CMSIS;.\Library\Firmware\CMSIS\GD\GD32F30x\Include;.\Hardware\Include;.\Hardware\APP\SI4463\inc;.\Hardware\APP\WIFI;.\Hardware;.\Hardware\shell;.\jsmn-master</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -396,6 +396,11 @@
               <FileName>systick.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>jsmn.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\jsmn-master\jsmn.h</FilePath>
             </File>
           </Files>
         </Group>

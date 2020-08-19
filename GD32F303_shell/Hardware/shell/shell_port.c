@@ -36,8 +36,8 @@ void userShellWrite(char data)
  * @param data 数据
  * @return char 状态
  */
-signed char userShellRead(char *data)
-{
+//signed char userShellRead(char *data)
+//{
 	
 //	if(receive_len!=0)
 //	{
@@ -49,7 +49,7 @@ signed char userShellRead(char *data)
 //	else{
 //		return -1;
 //	}
-}
+//}
 
 
 /**
