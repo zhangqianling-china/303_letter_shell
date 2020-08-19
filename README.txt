@@ -1,1 +1,1 @@
-使用GD303初步移植WIFI,SI4463
+GD32F303移植letter-shell测试工程demo
